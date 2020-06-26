@@ -22,3 +22,8 @@ git branch
 (this will show you a list of branches)
 (you are connected with the one with * at start)
 
+4. how to add a change.
+
+git add .
+git commit -m"reason"
+git push
