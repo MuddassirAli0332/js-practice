@@ -1,0 +1,24 @@
+1. download a repository:
+
+git clone https://github.com/MuddassirAli0332/js-practice.git
+
+2. how to upload your file to git.
+
+git status
+git add .
+git status
+git commit -m"reason "
+------------------------------------
+git config --global user.email "muddassirali2016@gmail.com"
+git config --global user.name "MuddassirAli0332"
+--------------------------------------
+git push
+
+
+
+3. how to check your branch.
+
+git branch
+(this will show you a list of branches)
+(you are connected with the one with * at start)
+
