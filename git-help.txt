@@ -27,3 +27,6 @@ git branch
 git add .
 git commit -m"reason"
 git push
+
+5. how to download changes from repository.
+d:\>git\learnToCode>git pull
