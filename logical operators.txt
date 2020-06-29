@@ -1,0 +1,29 @@
+// logical operators.
+// operainds.
+// && (AND), || (OR), ! (not)
+var a = 5, b = 10, ans;
+console.clear();
+// 2 yea 2 sey ziada comparisons ko combine kar k 1 restult daitey hain.
+
+// ans = a !== b;
+// console.log(ans);
+
+// ans = a < b;
+// console.log(ans);
+console.log('And Operator');
+ans = a > b && a !== b
+// jab dono comparision true hon gey. to && true return karey ga.
+console.log(ans);
+
+
+console.log('OR Operator');
+ans = a > b || a !== b
+// jab koi bhi comparison true ho ga to OR operator true return karey ga..
+console.log(ans);
+
+console.log('Not Operator');
+ans = !(a < b)
+console.log(ans);
+ans = !(a > b)
+console.log(ans);
+
