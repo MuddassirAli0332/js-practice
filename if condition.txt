@@ -1,0 +1,47 @@
+
+var a = 5, b = 10, percentage = 61, s;
+
+console.clear();
+
+if (a !== b && a > b) {
+  // if block
+  // jab condition ka result true.
+  console.log('Pakistan');
+} else {
+  // else block
+  // jab condition ka result false.  
+  console.log('England');  
+}
+
+// -------------------
+if (a !== b || a > b) {
+  // if block
+  // jab condition ka result true.
+  console.log('Pakistan');
+} else {
+  // else block
+  // jab condition ka result false.    
+  console.log('England');  
+}
+
+// -----------------------
+// multiple if
+
+
+if (percentage >= 90) {
+  s = 'A*';
+} else if (percentage >= 80 && percentage < 90) {
+  s = 'A+';
+} else if (percentage >= 70 && percentage < 80) {
+  s = 'A';
+} else if (percentage >= 60 && percentage < 70) {
+  s = 'B';
+} else if (percentage >= 50 && percentage < 60) {
+  s = 'C';
+} else if (percentage >= 40 && percentage < 50) {
+  s = 'D';
+} else {
+  s = 'Fail';
+}
+
+console.log(s);
