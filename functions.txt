@@ -1,0 +1,70 @@
+
+console.clear();
+
+var lmn = function(a, b) {
+  return a+b;
+}(2, 3);
+console.log(lmn);
+
+var myfn = function(a, b) {
+  return a * b;
+};
+
+lmn = myfn(2, 3);
+console.log(lmn);
+
+function myTestFunction(param1, param2) {
+  var ans;
+  ans = param1 + param2;
+  return ans;
+}
+
+var xyz;
+xyz = myTestFunction(1, 2, 3, 4);
+console.log(xyz);
+
+function myfun(a, b) {
+  // sub routine.
+  var ans = a + b;
+  console.log(ans);
+}
+
+
+
+function myfun1() {
+  console.log('hello world');
+}
+
+myfun1();
+
+function myfun2(arr) {
+  console.log(JSON.stringify(arr));
+}
+
+var brr = [1,2,3,4,5,6,7,8,910,11,12,13,14,15,16,17,18,19,20];
+myfun2(brr);
+
+function add(a, b) {
+  return a+b;
+}
+
+var ans = add(10, 20);
+console.log(ans);
+
+var substract = function(a, b) {
+  return a-b;
+}
+
+ans = substract(10, 4);
+console.log(ans);
+
+ans = function(a) {
+  return a*a;
+}(3);
+
+console.log(ans);
+
+
+
+
+
